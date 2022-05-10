@@ -22,6 +22,10 @@ void main() async {
 }
 
 class Pull1 {
+
+  fun fun1(){
+  
+  }
   
 }
 
