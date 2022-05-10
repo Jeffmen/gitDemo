@@ -7,7 +7,6 @@ import 'com/camp/log/log.dart';
 import 'com/camp/page/home/home_page.dart';
 import 'com/camp/page/login/login_page.dart';
 import 'com/camp/user/app_user.dart';
-import 'com/camp/widget/no_scroll_behavior.dart';
 
 void main() async {
   await MMKV.initialize();
@@ -20,6 +19,10 @@ void main() async {
     },
     appRunner: () => runApp(MyApp()),
   );
+}
+
+class Pull1 {
+  
 }
 
 class MyApp extends StatelessWidget {
