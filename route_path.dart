@@ -17,7 +17,6 @@ import 'com/camp/page/search/search_page.dart';
 import 'com/camp/page/setting/about_page.dart';
 import 'com/camp/page/setting/setting_page.dart';
 import 'com/camp/page/issue/commit_list_page.dart';
-import 'com/camp/page/issue/commit_message_page.dart';
 import 'com/camp/page/issue/create_comment_page.dart';
 import 'com/camp/page/issue/create_issue_page.dart';
 import 'com/camp/page/issue/edit_issue_page.dart';
@@ -51,6 +50,13 @@ import 'com/camp/page/user/user_following_page.dart';
 import 'com/camp/page/user/user_repos_page.dart';
 import 'com/camp/page/user/user_star_page.dart';
 import 'com/camp/page/web/web_page.dart';
+import 'com/camp/page/web/pull1.dart';
+import 'com/camp/page/web/pull1.dart';
+import 'com/camp/page/web/pull1.dart';
+import 'com/camp/page/web/pull1.dart';
+import 'com/camp/page/web/pull1.dart';
+import 'com/camp/page/web/pull1.dart';
+import 'com/camp/page/web/pull1.dart';
 
 class RoutePath {
   static var routes = {
