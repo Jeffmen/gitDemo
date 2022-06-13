@@ -31,16 +31,6 @@ class ItemCommitLine extends StatefulWidget {
         this.path,
         this.pullNumber,
       }) : super();
-  bool canClick;
-  CommitLine item;
-  String reposFullName;
-  String? path;
-  int? pullNumber;
-  String? commitId;
-  bool locked;
-
-  @override
-  State<StatefulWidget> createState() => _ItemCommitLineState();
 }
 
 class MyApp extends StatelessWidget {
