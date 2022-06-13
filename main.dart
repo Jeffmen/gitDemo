@@ -21,12 +21,26 @@ void main() async {
   );
 }
 
-class Pull1 {
+class ItemCommitLine extends StatefulWidget {
+  ItemCommitLine(
+      this.reposFullName,
+      this.item,
+      this.commitId,
+      this.locked, {
+        this.canClick = false,
+        this.path,
+        this.pullNumber,
+      }) : super();
+  bool canClick;
+  CommitLine item;
+  String reposFullName;
+  String? path;
+  int? pullNumber;
+  String? commitId;
+  bool locked;
 
-  fun fun1(){
-  
-  }
-  
+  @override
+  State<StatefulWidget> createState() => _ItemCommitLineState();
 }
 
 class MyApp extends StatelessWidget {
